@@ -50,37 +50,11 @@ const Example = (props) => {
       <ul className="nav navbar-nav">
         <li className="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
         <li><a href="#">Application</a></li>
-        <li className="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul className="dropdown-menu">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
+        
       </ul>
-      <form className="navbar-form navbar-left">
-        <div className="form-group">
-          <input type="text" class="form-control" placeholder="Search"/>
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
+      
       <ul className="nav navbar-nav navbar-right">
         <li><a href="#">Link</a></li>
-        <li className="dropdown">
-          <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul className="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" className="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
       </ul>
     </div>
   </div>

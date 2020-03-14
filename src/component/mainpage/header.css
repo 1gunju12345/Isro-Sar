@@ -1,11 +1,10 @@
 .left-content{
-   
-    height:20vh;
-    width:20vw;
+    transform: translate(450px);
 }
 .left-text{
     display:flex;
 }
 .middle-content{
+    transform: translate(50px,-150px);
     display:flex;
 }
