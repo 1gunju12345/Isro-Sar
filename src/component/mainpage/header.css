@@ -1,0 +1,11 @@
+.left-content{
+   
+    height:20vh;
+    width:20vw;
+}
+.left-text{
+    display:flex;
+}
+.middle-content{
+    display:flex;
+}
