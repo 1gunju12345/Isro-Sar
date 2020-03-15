@@ -1,10 +1,29 @@
-.left-content{
-    transform: translate(450px);
+.right-content{
+    transform: translate(0,50px);
+    margin-left: 40px;
+    margin-top: 20px;
+    
 }
 .left-text{
-    display:flex;
+    width: 250px;
+    margin-left: 10px;
+   
 }
 .middle-content{
-    transform: translate(50px,-150px);
-    display:flex;
+   margin-top: 20px;
+  transform: translate(0,50px);
+    
+}
+h3{
+
+    color:blue;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+.header{
+    display: flex;
+}
+.right-text{
+    margin-left: 250px;
+    margin-top: 70px;    
 }
